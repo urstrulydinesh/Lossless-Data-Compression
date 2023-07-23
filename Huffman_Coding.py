@@ -112,7 +112,7 @@ def Huffman_Decoding(encoded_data, huffman_tree):
     return string        
 
 
-data = "Jai Balayya"
+data = input()
 print('\n',data)
 encoding, tree = Huffman_Encoding(data)
 print("\nEncoded output:", encoding)
